@@ -1,0 +1,52 @@
+---
+title: "Git Commands"
+datePublished: Wed Mar 29 2023 17:16:50 GMT+0000 (Coordinated Universal Time)
+cuid: clfty8mxo000409mnb6je3shn
+slug: git-commands
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/upload/b6d3542e52fa1dd9ea45c56f4a1318cf.jpeg
+
+---
+
+**Branch Creation**  
+`git branch <NEW_BRANCH_NAME>`  
+`git checkout <NEW_BRANCH_NAME>`
+
+**Pull Latest Code**  
+`git pull origin <NEW_BRANCH_NAME>`
+
+**Upload Code**  
+`git add .`  
+`git commit -m "message"`  
+`git push origin <BRANCH_NAME>`
+
+**Merging**  
+`git merge <SOURCE_BRANCH_NAME>`
+
+**Revert changes**  
+`git revert -m 1 <COMMIT_CODE>`
+
+**Delete local branch**  
+`git branch -d <BRANCH_NAME>`
+
+**Remove committed changes from PR or Branch**  
+`git reset --soft Head~1`  
+`git reset HEAD .idea/`  
+`git commit -m ".idea folder ignored"`  
+`git push origin <Branch_name> -f`
+
+**Rename the local branch**  
+`git branch -m <new_name>`
+
+**Updating the git configurations**  
+`git config` [`user.name`](http://user.name) `<USER_NAME>`  
+`git config` [`user.email`](http://user.email) `<USER_EMAIL>`
+
+**Update .gitignore file:**  
+\- Make changes in .gitignore file.  
+\- Run `git rm -r --cached .` command. /  
+\- Run `git add .` command and `git commit -m "Commit message"` or just `git commit` or continue working. What is really important here is step 2. And remember to just run `git add .` command before doing any commit.
+
+**Changing Your Repo's Language in GitHub:** Please refer the below link for more information on this topic.  
+[https://dev.to/katkelly/changing-your-repo-s-language-in-github-5gjo](https://dev.to/katkelly/changing-your-repo-s-language-in-github-5gjo)
+
+Stay tuned... I'll update this post with more commands later 👋
