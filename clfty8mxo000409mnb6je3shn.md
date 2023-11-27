@@ -16,7 +16,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 
 **Branch Creation**  
 `git branch <NEW_BRANCH_NAME>`  
-`git checkout <NEW_BRANCH_NAME>`
+`git checkout -b <NEW_BRANCH_NAME>`
 
 **Pull Latest Code**  
 `git pull origin <NEW_BRANCH_NAME>`
