@@ -11,7 +11,8 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 `<NEW_BRANCH_NAME>` = New branch name  
 `<BRANCH_NAME>` = Current branch name  
 `<COMMIT_MESSAGE>` = Message for commit/Description of changes/Message will be shown in Git.  
-`<SOURCE_BRANCH_NAME>` = The branch which you want to merge
+`<SOURCE_BRANCH_NAME>` = The branch which you want to merge  
+`<COMMIT_CODE>`
 
 **Branch Creation**  
 `git branch <NEW_BRANCH_NAME>`  
@@ -37,22 +38,22 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 **Remove committed changes from PR or Branch**  
 `git reset --soft Head~1`  
 `git reset HEAD .idea/`  
-`git commit -m ".idea folder ignored"`  
-`git push origin <Branch_name> -f`
+`git commit -m ".idea folder ignored"` -&gt; `".idea folder ignored"` is commit message  
+`git push origin <BRANCH_NAME> -f`
 
 **Rename the local branch**  
-`git branch -m <new_name>`
+`git branch -m <NEW_BRANCH_NAME>`
 
 **Updating the git configurations**  
 `git config` [`user.name`](http://user.name) `<USER_NAME>`  
 `git config` [`user.email`](http://user.email) `<USER_EMAIL>`
 
 **Update .gitignore file:**  
-\- Make changes in .gitignore file.  
+\- Make changes in the .gitignore file.  
 \- Run `git rm -r --cached .` command. /  
-\- Run `git add .` command and `git commit -m "Commit message"` or just `git commit` or continue working. What is really important here is step 2. And remember to just run `git add .` command before doing any commit.
+\- Run `git add .` command and `git commit -m "Commit message"` or just `git commit` or continue working. What is really important here is step 2. And remember to just run `git add .` the command before doing any commit.
 
-**Changing Your Repo's Language in GitHub:** Please refer the below link for more information on this topic.  
+**Changing Your Repo's Language in GitHub:** Please refer to the below link for more information on this topic.  
 [https://dev.to/katkelly/changing-your-repo-s-language-in-github-5gjo](https://dev.to/katkelly/changing-your-repo-s-language-in-github-5gjo)
 
 Stay tuned... I'll update this post with more commands later 👋
