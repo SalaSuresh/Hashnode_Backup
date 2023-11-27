@@ -12,7 +12,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 `<BRANCH_NAME>` = Current branch name  
 `<COMMIT_MESSAGE>` = Message for commit/Description of changes/Message will be shown in Git.  
 `<SOURCE_BRANCH_NAME>` = The branch which you want to merge  
-`<COMMIT_CODE>`
+`<COMMIT_CODE>` = Every commit will be assigned with a unique commit code.
 
 **Branch Creation**  
 `git branch <NEW_BRANCH_NAME>`  
