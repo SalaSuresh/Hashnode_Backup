@@ -7,6 +7,12 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 
 ---
 
+**Conventions**  
+`<NEW_BRANCH_NAME>` = New branch name  
+`<BRANCH_NAME>` = Current branch name  
+`<COMMIT_MESSAGE>` = Message for commit/Description of changes/Message will be shown in Git.  
+`<SOURCE_BRANCH_NAME>` = The branch which you want to merge
+
 **Branch Creation**  
 `git branch <NEW_BRANCH_NAME>`  
 `git checkout <NEW_BRANCH_NAME>`
@@ -16,7 +22,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 
 **Upload Code**  
 `git add .`  
-`git commit -m "message"`  
+`git commit -m "<COMMIT_MESSAGE>"`  
 `git push origin <BRANCH_NAME>`
 
 **Merging**  
