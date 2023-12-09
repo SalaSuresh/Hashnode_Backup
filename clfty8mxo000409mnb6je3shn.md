@@ -46,7 +46,7 @@ OR
 **Rename the local branch**  
 `git branch -m <NEW_BRANCH_NAME>`
 
-**To get all remote branches to local**  
+**To get all remote branches to the local**  
 `git fetch`
 
 **Updating the git configurations**  
