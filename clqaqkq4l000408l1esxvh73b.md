@@ -3,6 +3,7 @@ title: "Android Studio: Local Changes tab"
 datePublished: Mon Dec 18 2023 09:51:25 GMT+0000 (Coordinated Universal Time)
 cuid: clqaqkq4l000408l1esxvh73b
 slug: android-studio-local-changes-tab
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/jYSox15idJs/upload/58ce3b892231e33bcdd82f0f10c11153.jpeg
 tags: 2articles1week
 
 ---
