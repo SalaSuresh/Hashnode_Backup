@@ -43,6 +43,11 @@ OR
 `git commit -m ".idea folder ignored"` -&gt; `".idea folder ignored"` is commit message  
 `git push origin <BRANCH_NAME> -f`
 
+**Remove the committed files from the commit**  
+`git rm --cached <file>   git commit --amend`
+
+`# Examples   git rm --cached "30-seconds.txt"   git commit --amend   # Removes 30-seconds.txt from the last commit`
+
 **Rename the local branch**  
 `git branch -m <NEW_BRANCH_NAME>`
 
@@ -50,8 +55,8 @@ OR
 `git fetch`
 
 **Updating the git configurations**  
-`git config` [`user.name`](http://user.name) `<USER_NAME>`  
-`git config` [`user.email`](http://user.email) `<USER_EMAIL>`
+`git config`[`user.name`](http://user.name)`<USER_NAME>`  
+`git config`[`user.email`](http://user.email)`<USER_EMAIL>`
 
 **Update .gitignore file:**  
 \- Make changes in the .gitignore file.  
