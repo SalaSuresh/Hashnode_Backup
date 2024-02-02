@@ -44,9 +44,12 @@ OR
 `git push origin <BRANCH_NAME> -f`
 
 **Remove the committed files from the commit**  
-`git rm --cached <file>   git commit --amend`
-
-`# Examples   git rm --cached "30-seconds.txt"   git commit --amend   # Removes 30-seconds.txt from the last commit`
+`git rm --cached <file>`  
+`git commit --amend`  
+`# Examples`  
+`git rm --cached "30-seconds.txt"`  
+`git commit --amend`  
+`# Removes 30-seconds.txt from the last commit`
 
 **Rename the local branch**  
 `git branch -m <NEW_BRANCH_NAME>`
