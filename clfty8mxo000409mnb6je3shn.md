@@ -12,7 +12,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 `<BRANCH_NAME>` = Current branch name  
 `<COMMIT_MESSAGE>` = Message for commit/Description of changes/Message will be shown in Git.  
 `<SOURCE_BRANCH_NAME>` = The branch which you want to merge  
-`<COMMIT_CODE>` = Every commit will be assigned with a unique commit code.
+`<COMMIT_CODE>` = Every commit will be assigned a unique commit code.
 
 **Branch Creation**  
 `git branch <NEW_BRANCH_NAME>`  
@@ -22,6 +22,11 @@ OR
 
 **Pull Latest Code**  
 `git pull origin <NEW_BRANCH_NAME>`
+
+Stash changes in the Branch  
+`git stash`  
+Use the below command to get the changes back to the branch.  
+`git stash pop`
 
 **Upload Code**  
 `git add .`  
