@@ -20,10 +20,17 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wX2L8L-fGeA/up
 OR  
 `git checkout -b <NEW_BRANCH_NAME>`
 
-**Pull Latest Code**  
-`git pull origin <NEW_BRANCH_NAME>`
+**Switching to a branch**  
+`git checkout <BRANCH_NAME>`  
+OR  
+`git switch <BRANCH_NAME>`
 
-Stash changes in the Branch  
+**Pull Latest Code**  
+`git pull origin <NEW_BRANCH_NAME>`  
+OR  
+`git pull`
+
+**Stash changes in the Branch**  
 `git stash`  
 Use the below command to get the changes back to the branch.  
 `git stash pop`
@@ -73,5 +80,10 @@ Use the below command to get the changes back to the branch.
 
 **Changing Your Repo's Language in GitHub:** Please refer to the below link for more information on this topic.  
 [https://dev.to/katkelly/changing-your-repo-s-language-in-github-5gjo](https://dev.to/katkelly/changing-your-repo-s-language-in-github-5gjo)
+
+**Git Worktree:** Refer to the video below for more information.  
+[https://www.youtube.com/watch?v=ntM7utSjeVU](https://www.youtube.com/watch?v=ntM7utSjeVU)  
+`git worktree add ../<FOLDER_NAME> <BRANCH_NAME>`  
+`git worktree remove .`
 
 Stay tuned... I'll update this post with more commands later 👋
