@@ -55,6 +55,10 @@ Use the below command to get the changes back to the branch.
 `git commit -m ".idea folder ignored"` -&gt; `".idea folder ignored"` is commit message  
 `git push origin <BRANCH_NAME> -f`
 
+**Remove the committed file from local changes**
+
+`git reset HEAD path/to/unwanted_file`
+
 **Remove the committed files from the commit**  
 `git rm --cached <file>`  
 `git commit --amend`  
